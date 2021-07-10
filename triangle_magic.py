@@ -86,7 +86,7 @@ def main():
     # Segment that draws new dots
     old_point_list = [0,0]
     count = 0
-    while count < 1000:
+    while count < 5000:
         # Simulate dice roll
         dice_roll = random.randint(1,6)
         if dice_roll <= 2:
